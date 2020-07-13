@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCrimeAndJusticeClassLibrary", "OnlineCrimeAndJusticeClassLibrary\OnlineCrimeAndJusticeClassLibrary.csproj", "{4DFF48B0-40D4-4379-884E-03CBAE3A8DB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCrimeAndJusticeSystemWeb", "OnlineCrimeAndJusticeSystemWeb\OnlineCrimeAndJusticeSystemWeb.csproj", "{A6BC07CE-E94E-4BA0-A5D6-DD3A901E9786}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineCrimeAndJusticeSystemWeb", "OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystemWeb.csproj", "{369B0173-ED0A-4EFB-9B23-C6F7F59AE56F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{4DFF48B0-40D4-4379-884E-03CBAE3A8DB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DFF48B0-40D4-4379-884E-03CBAE3A8DB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DFF48B0-40D4-4379-884E-03CBAE3A8DB8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A6BC07CE-E94E-4BA0-A5D6-DD3A901E9786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A6BC07CE-E94E-4BA0-A5D6-DD3A901E9786}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A6BC07CE-E94E-4BA0-A5D6-DD3A901E9786}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A6BC07CE-E94E-4BA0-A5D6-DD3A901E9786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369B0173-ED0A-4EFB-9B23-C6F7F59AE56F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369B0173-ED0A-4EFB-9B23-C6F7F59AE56F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369B0173-ED0A-4EFB-9B23-C6F7F59AE56F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369B0173-ED0A-4EFB-9B23-C6F7F59AE56F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

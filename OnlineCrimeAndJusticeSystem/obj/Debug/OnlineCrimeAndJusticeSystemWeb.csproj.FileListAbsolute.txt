@@ -72,3 +72,7 @@ D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJustice
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\obj\Debug\OnlineCrimeAndJusticeSystem.dll
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\obj\Debug\OnlineCrimeAndJusticeSystem.pdb
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\obj\Debug\OnlineCrimeAndJusticeSystemWeb.csprojAssemblyReference.cache
+D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml

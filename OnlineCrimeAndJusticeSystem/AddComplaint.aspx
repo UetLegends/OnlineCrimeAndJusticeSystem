@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="5">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server">
@@ -216,6 +216,108 @@
                             <asp:Button ID="btn_OccurenceofOffenceDate" runat="server" Text="Date" CssClass="btn btn-danger daterange-ranges __web-inspector-hide-shortcut__" OnClientClick="return false;" />
                         </div>    
                     </asp:WizardStep>
+
+                    <asp:WizardStep ID="WizardStep5">
+                        <h5>Accused/Suspect Details</h5>
+                        <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Type of Accused</label>
+                                        <asp:RadioButtonList ID="rdbtn_TypeofAccused" runat="server">
+                                            <asp:ListItem>Known Accused</asp:ListItem>
+                                            <asp:ListItem>Unknow Accused</asp:ListItem>
+                                        </asp:RadioButtonList>
+                                    </div>
+                                </div>
+                            </div>
+
+                        <asp:Panel ID="UnkownPerson" runat="server">
+                            <h6>Accused Person Physical Features</h6>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Appoximatly Height</label>
+                                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Height"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Color</label>
+                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Color"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Body Language</label>
+                                        <asp:TextBox ID="txt_BodyLanguage" runat="server" CssClass="form-control" placeholder="BodyLanguage"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Way of Talking</label>
+                                        <asp:TextBox ID="txt_talkingWay" runat="server" CssClass="form-control" placeholder="Way of Talking"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Language</label>
+                                        <asp:TextBox ID="txt_language" runat="server" CssClass="form-control" placeholder="Language"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Events Used for Crime</label>
+                                        <asp:TextBox ID="txt_Crime" runat="server" CssClass="form-control" placeholder="Evnets for Crime"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+                        </asp:Panel>
+
+                        <asp:Panel ID="KnownPerson" runat="server">
+                            <h6>Accused Person</h6>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Accused Person Name</label>
+                                        <asp:TextBox ID="txt_AccusedPersonName" runat="server" CssClass="form-control" placeholder="Name"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Father Name</label>
+                                        <asp:TextBox ID="txt_AccusedPersonFatherName" runat="server" CssClass="form-control" placeholder="FatherName"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                             <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Cast</label>
+                                        <asp:TextBox ID="txt_Cast" runat="server" CssClass="form-control" placeholder="Cast"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </asp:Panel>
+                        <asp:Button ID="Button1" runat="server" Text="Add" CssClass="btn btn-warning" />
+                    </asp:WizardStep>
+
                 </WizardSteps>
                 <NavigationButtonStyle CssClass="btn btn-danger" />
             </asp:Wizard>

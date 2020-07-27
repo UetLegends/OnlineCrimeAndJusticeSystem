@@ -7,7 +7,7 @@
             <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="5">
                 <WizardSteps>
                     
-                    <asp:WizardStep ID="WinzardStep0" runat="server">
+                    <asp:WizardStep ID="WinzardStep0" runat="server" >
                         <h6>Complaint ID</h6>
                         <label>Enter ID</label>
                         <asp:TextBox ID="txt_ComplaintID" runat="server" CssClass="form-control" placeholder="ID"></asp:TextBox>
@@ -214,13 +214,40 @@
                         <div class="row">
                             <label>Occuence of Offence Date & Time</label><span>&emsp;</span>
                             <asp:Button ID="btn_OccurenceofOffenceDate" runat="server" Text="Date" CssClass="btn btn-danger daterange-ranges __web-inspector-hide-shortcut__" OnClientClick="return false;" />
-                        </div>    
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>State</label>
+                                    <asp:TextBox ID="txt_OffenceState" runat="server" CssClass="form-control" placeholder="State"></asp:TextBox>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>District</label>
+                                    <asp:TextBox ID="txt_OffenceDistrict" runat="server" CssClass="form-control" placeholder="District"></asp:TextBox>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Street</label>
+                                    <asp:TextBox ID="txt_OffenceStreet" runat="server" CssClass="form-control" placeholder="Street"></asp:TextBox>
+
+                                </div>
+                            </div>
+                            </div>
                     </asp:WizardStep>
 
-                    <asp:WizardStep ID="WizardStep5">
+                    <asp:WizardStep ID="WizardStep5" runat="server">
                         <h5>Accused/Suspect Details</h5>
                         <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-10">
                                     <div class="form-group">
                                         <label>Type of Accused</label>
                                         <asp:RadioButtonList ID="rdbtn_TypeofAccused" runat="server">
@@ -230,6 +257,7 @@
                                     </div>
                                 </div>
                             </div>
+                        <asp:Button ID="btn_Showform" runat="server" Text="Show Form" OnClick="btn_Showform_Click" CssClass="btn btn-danger"/>
 
                         <asp:Panel ID="UnkownPerson" runat="server">
                             <h6>Accused Person Physical Features</h6>
@@ -238,7 +266,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Appoximatly Height</label>
-                                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Height"></asp:TextBox>
+                                        <asp:TextBox ID="txt_Height" runat="server" CssClass="form-control" placeholder="Height"></asp:TextBox>
 
                                     </div>
                                 </div>
@@ -246,7 +274,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Color</label>
-                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Color"></asp:TextBox>
+                                        <asp:TextBox ID="txt_Color" runat="server" CssClass="form-control" placeholder="Color"></asp:TextBox>
                                     </div>
                                 </div>
                             </div>
@@ -284,6 +312,7 @@
                                     </div>
                                 </div>
                             </div>
+                             <asp:Button ID="btn_AddUnknown" runat="server" Text="Add" CssClass="btn btn-warning" />
                         </asp:Panel>
 
                         <asp:Panel ID="KnownPerson" runat="server">
@@ -314,8 +343,9 @@
                                     </div>
                                 </div>
                             </div>
+                             <asp:Button ID="btn_AddKnown" runat="server" Text="Add" CssClass="btn btn-warning" />
                         </asp:Panel>
-                        <asp:Button ID="Button1" runat="server" Text="Add" CssClass="btn btn-warning" />
+                       
                     </asp:WizardStep>
 
                 </WizardSteps>

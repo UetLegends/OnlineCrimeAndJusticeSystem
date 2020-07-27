@@ -11,8 +11,20 @@ namespace OnlineCrimeAndJusticeSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            UnkownPerson.Visible = false;
+            KnownPerson.Visible = false;
         }
 
+        protected void btn_Showform_Click(object sender, EventArgs e)
+        {
+            if (rdbtn_TypeofAccused.SelectedItem.Text == "Known Accused")
+            {
+                KnownPerson.Visible = true;
+            }
+            if (rdbtn_TypeofAccused.SelectedItem.Text == "Unknow Accused") 
+            {
+                UnkownPerson.Visible = true;
+            }
+        }
     }
 }

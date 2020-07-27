@@ -249,6 +249,33 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.Button btn_OccurenceofOffenceDate;
 
         /// <summary>
+        /// txt_OffenceState control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_OffenceState;
+
+        /// <summary>
+        /// txt_OffenceDistrict control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_OffenceDistrict;
+
+        /// <summary>
+        /// txt_OffenceStreet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_OffenceStreet;
+
+        /// <summary>
         /// WizardStep5 control.
         /// </summary>
         /// <remarks>
@@ -267,6 +294,15 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.RadioButtonList rdbtn_TypeofAccused;
 
         /// <summary>
+        /// btn_Showform control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Showform;
+
+        /// <summary>
         /// UnkownPerson control.
         /// </summary>
         /// <remarks>
@@ -276,22 +312,22 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.Panel UnkownPerson;
 
         /// <summary>
-        /// TextBox1 control.
+        /// txt_Height control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txt_Height;
 
         /// <summary>
-        /// TextBox2 control.
+        /// txt_Color control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txt_Color;
 
         /// <summary>
         /// txt_BodyLanguage control.
@@ -330,6 +366,15 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.TextBox txt_Crime;
 
         /// <summary>
+        /// btn_AddUnknown control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_AddUnknown;
+
+        /// <summary>
         /// KnownPerson control.
         /// </summary>
         /// <remarks>
@@ -366,12 +411,12 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.TextBox txt_Cast;
 
         /// <summary>
-        /// Button1 control.
+        /// btn_AddKnown control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btn_AddKnown;
     }
 }

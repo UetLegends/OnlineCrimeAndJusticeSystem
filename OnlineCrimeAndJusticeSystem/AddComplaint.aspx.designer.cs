@@ -51,40 +51,40 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.WizardStep WizardStep1;
 
         /// <summary>
-        /// txt_State control.
+        /// txt_FirstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_State;
+        protected global::System.Web.UI.WebControls.TextBox txt_FirstName;
 
         /// <summary>
-        /// txt_district control.
+        /// txt_FatherName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_district;
+        protected global::System.Web.UI.WebControls.TextBox txt_FatherName;
 
         /// <summary>
-        /// txt_Street control.
+        /// txt_CNIC control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_Street;
+        protected global::System.Web.UI.WebControls.TextBox txt_CNIC;
 
         /// <summary>
-        /// txt_postelCode control.
+        /// txt_Email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_postelCode;
+        protected global::System.Web.UI.WebControls.TextBox txt_Email;
 
         /// <summary>
         /// txt_PhoneNumber control.
@@ -123,57 +123,129 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.WizardStep WizardStep2;
 
         /// <summary>
-        /// TextBox1 control.
+        /// txt_State control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox txt_State;
 
         /// <summary>
-        /// TextBox2 control.
+        /// txt_District control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox txt_District;
 
         /// <summary>
-        /// TextBox3 control.
+        /// txt_Street control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox txt_Street;
 
         /// <summary>
-        /// FileUpload1 control.
+        /// txt_postalCode control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUpload1;
+        protected global::System.Web.UI.WebControls.TextBox txt_postalCode;
 
         /// <summary>
-        /// Wirzardid control.
+        /// WizardStep3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep Wirzardid;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep3;
 
         /// <summary>
-        /// Wirzardid1 control.
+        /// txt_PoliceStationDistrict control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep Wirzardid1;
+        protected global::System.Web.UI.WebControls.TextBox txt_PoliceStationDistrict;
+
+        /// <summary>
+        /// txt_PoliceStationName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_PoliceStationName;
+
+        /// <summary>
+        /// txt_Act control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_Act;
+
+        /// <summary>
+        /// txt_Section control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_Section;
+
+        /// <summary>
+        /// txt_Grave control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList txt_Grave;
+
+        /// <summary>
+        /// txt_Punishable control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList txt_Punishable;
+
+        /// <summary>
+        /// btn_Add control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Add;
+
+        /// <summary>
+        /// WizardStep4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep4;
+
+        /// <summary>
+        /// btn_OccurenceofOffenceDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_OccurenceofOffenceDate;
     }
 }

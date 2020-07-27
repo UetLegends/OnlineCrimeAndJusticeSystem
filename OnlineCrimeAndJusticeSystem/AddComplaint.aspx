@@ -87,21 +87,21 @@
                     </asp:WizardStep>
 
                     <asp:WizardStep ID="WizardStep2" runat="server">
-                        <h6>Complainer Information</h6>
+                        <h6>Complainer Address Information</h6>
                         <fieldset>
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Name</label>
-                                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Name"></asp:TextBox>
+                                        <label>State</label>
+                                        <asp:TextBox ID="txt_State" runat="server" CssClass="form-control" placeholder="State"></asp:TextBox>
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Father Name</label>
-                                        <asp:TextBox ID="TextBox2" runat="server" CssClass="form-control" placeholder="Father Name"></asp:TextBox>
+                                        <label>District</label>
+                                        <asp:TextBox ID="txt_District" runat="server" CssClass="form-control" placeholder="District"></asp:TextBox>
 
                                     </div>
                                 </div>
@@ -110,16 +110,41 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>CNIC</label>
-                                        <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control" placeholder="****-*******-*"></asp:TextBox>
+                                        <label>Street</label>
+                                        <asp:TextBox ID="txt_Street" runat="server" CssClass="form-control" placeholder="Street"></asp:TextBox>
 
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Email address:</label>
-                                        <input type="email" name="email" class="form-control" placeholder="your@email.com">
+                                        <label>Postal Code</label>
+                                        <asp:TextBox ID="txt_postalCode" runat="server" CssClass="form-control" placeholder="Postal Code"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </fieldset>
+                    </asp:WizardStep>
+
+                    <asp:WizardStep ID="WizardStep3" runat="server">
+                        <h6>Act & Section</h6>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Distict</label>
+                                        <asp:TextBox ID="txt_PoliceStationDistrict" runat="server" CssClass="form-control" placeholder="District"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Police Station</label>
+                                        <asp:TextBox ID="txt_PoliceStationName" runat="server" CssClass="form-control" placeholder="Code"></asp:TextBox>
+
                                     </div>
                                 </div>
                             </div>
@@ -127,179 +152,69 @@
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <label>Phone #:</label>
-                                        <input type="text" name="tel" class="form-control" placeholder="+92-300-0000000" data-mask="+99-99-9999-9999">
+                                        <label>Act</label>
+                                        <asp:TextBox ID="txt_Act" runat="server" CssClass="form-control" placeholder="Act"></asp:TextBox>
+
                                     </div>
                                 </div>
 
                                 <div class="col-md-6">
-                                    <div class="row">
-                                        <div class="form-group">
-                                            <label class="d-block">Upload Image</label>
-                                            <asp:FileUpload ID="FileUpload1" runat="server" />
+                                    <div class="form-group">
+                                        <label>Discripiton</label>
+                                        <textarea id="txt_ActDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Section</label>
+                                        <asp:TextBox ID="txt_Section" runat="server" CssClass="form-control" placeholder="Section"></asp:TextBox>
 
-                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Discripiton</label>
+                                        <textarea id="txt_SectionDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Grave</label>
+                                        <asp:DropDownList ID="txt_Grave" runat="server" CssClass="form-control form-control-select2">
+                                            <asp:ListItem>Yes</asp:ListItem>
+                                            <asp:ListItem>No</asp:ListItem>
+                                        </asp:DropDownList>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Punishable</label>
+                                        <asp:DropDownList ID="txt_Punishable" runat="server" CssClass="form-control form-control-select2">
+                                            <asp:ListItem>Yes</asp:ListItem>
+                                            <asp:ListItem>No</asp:ListItem>
+                                        </asp:DropDownList>
+                                        <asp:Button ID="btn_Add" runat="server" Text="Add" CssClass="btn btn-warning"/>
                                     </div>
                                 </div>
                             </div>
                         </fieldset>
                     </asp:WizardStep>
-                    <asp:WizardStep ID="Wirzardid" runat="server">
-                        <h6>Your experience</h6>
-                        <fieldset>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Company:</label>
-                                        <input type="text" name="experience-company" placeholder="Company name" class="form-control">
-                                    </div>
 
-                                    <div class="form-group">
-                                        <label>Position:</label>
-                                        <input type="text" name="experience-position" placeholder="Company name" class="form-control">
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <label>From:</label>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <select name="education-from-month" data-placeholder="Month" class="form-control form-control-select2" data-fouc>
-                                                            <option></option>
-                                                            <option value="January">January</option>
-                                                            <option value="...">...</option>
-                                                            <option value="December">December</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <select name="education-from-year" data-placeholder="Year" class="form-control form-control-select2" data-fouc>
-                                                            <option></option>
-                                                            <option value="1995">1995</option>
-                                                            <option value="...">...</option>
-                                                            <option value="1980">1980</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-md-6">
-                                            <label>To:</label>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <select name="education-to-month" data-placeholder="Month" class="form-control form-control-select2" data-fouc>
-                                                            <option></option>
-                                                            <option value="January">January</option>
-                                                            <option value="...">...</option>
-                                                            <option value="December">December</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-
-                                                <div class="col-md-6">
-                                                    <div class="form-group">
-                                                        <select name="education-to-year" data-placeholder="Year" class="form-control form-control-select2" data-fouc>
-                                                            <option></option>
-                                                            <option value="1995">1995</option>
-                                                            <option value="...">...</option>
-                                                            <option value="1980">1980</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Brief description:</label>
-                                        <textarea name="experience-description" rows="4" cols="4" placeholder="Tasks and responsibilities" class="form-control"></textarea>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label class="d-block">Recommendations:</label>
-                                        <input name="recommendations" type="file" class="form-input-styled" data-fouc>
-                                        <span class="form-text text-muted">Accepted formats: pdf, doc. Max file size 2Mb</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
-                    </asp:WizardStep>
-                    <asp:WizardStep ID="Wirzardid1" runat="server">
-                        <h6>Additional info</h6>
-                        <fieldset>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label class="d-block">Applicant resume:</label>
-                                        <input type="file" name="resume" class="form-input-styled" data-fouc>
-                                        <span class="form-text text-muted">Accepted formats: pdf, doc. Max file size 2Mb</span>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Where did you find us?</label>
-                                        <select name="source" data-placeholder="Choose an option..." class="form-control form-control-select2" data-fouc>
-                                            <option></option>
-                                            <option value="monster">Monster.com</option>
-                                            <option value="linkedin">LinkedIn</option>
-                                            <option value="google">Google</option>
-                                            <option value="adwords">Google AdWords</option>
-                                            <option value="other">Other source</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Availability:</label>
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input type="radio" name="availability" class="form-input-styled" data-fouc>
-                                                Immediately
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input type="radio" name="availability" class="form-input-styled" data-fouc>
-                                                1 - 2 weeks
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input type="radio" name="availability" class="form-input-styled" data-fouc>
-                                                3 - 4 weeks
-                                            </label>
-                                        </div>
-
-                                        <div class="form-check">
-                                            <label class="form-check-label">
-                                                <input type="radio" name="availability" class="form-input-styled" data-fouc>
-                                                More than 1 month
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label>Additional information:</label>
-                                        <textarea name="additional-info" rows="5" cols="5" placeholder="If you want to add any info, do it here." class="form-control"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-                        </fieldset>
+                    <asp:WizardStep ID ="WizardStep4">
+                        <h6>Occurence of Offence</h6>
+                        <div class="row">
+                            <label>Occuence of Offence Date & Time</label><span>&emsp;</span>
+                            <asp:Button ID="btn_OccurenceofOffenceDate" runat="server" Text="Date" CssClass="btn btn-danger daterange-ranges __web-inspector-hide-shortcut__" OnClientClick="return false;" />
+                        </div>    
                     </asp:WizardStep>
                 </WizardSteps>
                 <NavigationButtonStyle CssClass="btn btn-danger" />

@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace OnlineCrimeAndJusticeClassLibrary
 {
-    class Witness:GlobalModel
+    class OccurrenceofOffecne
     {
-        public string MobileNumber { get; set; }
-
-        public string Statement { get; set; }
+        public string DateErom { get; set; }
+        public string DateTo { get; set; }
+        public string OffenceDescription { get; set; }
     }
 }

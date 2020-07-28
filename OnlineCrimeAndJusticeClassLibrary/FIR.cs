@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace OnlineCrimeAndJusticeClassLibrary
 {
-    class Witness:GlobalModel
+    class FIR
     {
-        public string MobileNumber { get; set; }
-
-        public string Statement { get; set; }
+        public string Status { get; set; }
+        public string Complaintid { get; set; }
     }
 }

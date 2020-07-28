@@ -6,9 +6,12 @@ using System.Threading.Tasks;
 
 namespace OnlineCrimeAndJusticeClassLibrary
 {
-    class Complainer:GlobalModel
+    class InvestegationOfficer:GlobalModel
     {
-        public string MobileNumber { get; set; }
+        public string OfficerRank { get; set; }
+        public string  Password { get; set; }
+        public string BeltNumber{ get; set; }
         public string imagepath { get; set; }
+
     }
 }

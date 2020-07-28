@@ -10,5 +10,7 @@ namespace OnlineCrimeAndJusticeClassLibrary
     {
         public string Password { get; set; }
         public string BeltNumber { get; set; }
+
+        public string imagepath { get; set; }
     }
 }

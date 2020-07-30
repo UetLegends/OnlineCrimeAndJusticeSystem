@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="5">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="0">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >
@@ -347,6 +347,75 @@
                         </asp:Panel>
                        
                     </asp:WizardStep>
+
+
+                    <asp:WizardStep ID="WizardStep6" runat="server">
+                        <h6>Witness Information</h6>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <asp:TextBox ID="txt_WitnessName" runat="server" CssClass="form-control" placeholder="Name"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Father Name</label>
+                                        <asp:TextBox ID="txt_WitnessFatherName" runat="server" CssClass="form-control" placeholder="Father Name"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>CNIC</label>
+                                        <asp:TextBox ID="txt_WitnessCNIC" runat="server" CssClass="form-control" placeholder="****-*******-*"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email address:</label>
+                                        <asp:TextBox ID="txt_WitnessEmailAddress" runat="server" CssClass="form-control" placeholder="name@email.com"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Phone #:</label>
+                                        <asp:TextBox ID="txt_WitnessPhoneNumber" runat="server" CssClass="form-control" placeholder="+92-300-0000000"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Gender</label>
+                                        <asp:DropDownList ID="txt_WitnessGender" runat="server" CssClass="form-control form-control-select2">
+                                            <asp:ListItem>Male</asp:ListItem>
+                                            <asp:ListItem>Female</asp:ListItem>
+                                            <asp:ListItem>Not Specified</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                            </div>
+                            <textarea id="ckcontent" class="ckeditor"></textarea>
+                        </fieldset>
+                    </asp:WizardStep>
+                    
+
 
                 </WizardSteps>
                 <NavigationButtonStyle CssClass="btn btn-danger" />

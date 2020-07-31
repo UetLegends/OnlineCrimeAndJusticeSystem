@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="0">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="3">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >
@@ -161,7 +161,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Discripiton</label>
-                                        <textarea id="txt_ActDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
+                                        <textarea id="txt_ActDiscription" name="txt_ActDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +178,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label>Discripiton</label>
-                                        <textarea id="txt_SectionDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
+                                        <textarea id="txt_SectionDiscription" name="txt_SectionDiscription" cols="30" rows="2" placeholder="Discripiton"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -202,10 +202,16 @@
                                             <asp:ListItem>Yes</asp:ListItem>
                                             <asp:ListItem>No</asp:ListItem>
                                         </asp:DropDownList>
-                                        <asp:Button ID="btn_Add" runat="server" Text="Add" CssClass="btn btn-warning"/>
+                                        <asp:Button ID="btn_Add" runat="server" Text="Add" CssClass="btn btn-warning" OnClick="btn_Add_Click"/>
                                     </div>
                                 </div>
                             </div>
+                            <asp:Panel runat="server" ID="ActAndSectionPanel">
+                                    <asp:GridView ID="DataTableActAndSection" runat="server" CssClass="table-dark" EmptyDataText="No record has set yet">
+                                        <Columns>
+                                        </Columns>
+                                    </asp:GridView>
+                            </asp:Panel>
                         </fieldset>
                     </asp:WizardStep>
 
@@ -413,6 +419,8 @@
                             </div>
                             <textarea id="ckcontent" class="ckeditor"></textarea>
                         </fieldset>
+                        <asp:Button ID="btn_WitnessAdd" runat="server" Text="Add" CssClass="btn btn-warning" />
+
                     </asp:WizardStep>
                     
 

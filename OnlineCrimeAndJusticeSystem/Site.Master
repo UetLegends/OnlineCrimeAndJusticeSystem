@@ -37,7 +37,6 @@
 	<script src="global_assets/js/demo_pages/dashboard.js"></script>
     <script src="Scripts/ckeditor/ckeditor.js"></script>
 	<!-- /theme JS files -->
-
 </head>
 <body>
         <!-- Main navbar -->

@@ -428,28 +428,33 @@
                                 <a href="#" class="nav-link"><i class="icon-copy"></i><span>Incharge Officer</span></a>
 
                                 <ul class="nav nav-group-sub" data-submenu-title="Incharge Officer">
-                                    <li class="nav-item"><a href="AddInchargeOfficer.aspx" class="nav-link active">Add</a></li>
+                                    <li class="nav-item"><a href="AddInchargeOfficer.aspx" class="nav-link">Add</a></li>
                                     <li class="nav-item"><a href="UpdateInchargeOfficer.aspx" class="nav-link">Update</a></li>
-                                    <li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Delete</a></li>
+                                    <li class="nav-item"><a href="DeleteInchargeOfficer.aspx" class="nav-link">Delete</a></li>
                                     <li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">View All Account</a></li>
                                 </ul>
                             </li>
+                            <li class="nav-item-header">
+                                <div class="text-uppercase font-size-xs line-height-xs">Investigation Officer</div>
+                                <i class="icon-menu" title="Complaint"></i></li>
                             <li class="nav-item nav-item-submenu">
                                 <a href="#" class="nav-link"><i class="icon-file-css"></i><span>Investigation Officer</span></a>
 
                                 <ul class="nav nav-group-sub" data-submenu-title="Investigation Officer">
-                                    <li class="nav-item"><a href="AddInchargeOfficer.aspx" class="nav-link active">Add</a></li>
-                                    <li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Update</a></li>
-                                    <li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Delete</a></li>
+                                    <li class="nav-item"><a href="AddInvestigationOfficer.aspx" class="nav-link">Add</a></li>
+                                    <li class="nav-item"><a href="UpdateInvestigationOfficer.aspx" class="nav-link">Update</a></li>
+                                    <li class="nav-item"><a href="DeleteInvestigationOfficer.aspx" class="nav-link">Delete</a></li>
                                     <li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">View All Account</a></li>
                                 </ul>
                             </li>
-                            
+                            <li class="nav-item-header">
+                                <div class="text-uppercase font-size-xs line-height-xs">Judge</div>
+                                <i class="icon-menu" title="Complaint"></i></li>
                             <li class="nav-item nav-item-submenu">
                                 <a href="#" class="nav-link"><i class="icon-file-css"></i><span> Judge</span></a>
 
                                 <ul class="nav nav-group-sub" data-submenu-title="Judge">
-                                    <li class="nav-item"><a href="AddInchargeOfficer.aspx" class="nav-link active">Add</a></li>
+                                    <li class="nav-item"><a href="AddInchargeOfficer.aspx" class="nav-link">Add</a></li>
                                     <li class="nav-item"><a href="../../../../layout_2/LTR/default/full/index.html" class="nav-link">Update</a></li>
                                     <li class="nav-item"><a href="../../../../layout_3/LTR/default/full/index.html" class="nav-link">Delete</a></li>
                                     <li class="nav-item"><a href="../../../../layout_4/LTR/default/full/index.html" class="nav-link">View All Account</a></li>

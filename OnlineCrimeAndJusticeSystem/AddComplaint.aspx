@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="AddComplaint.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.AddComplaint" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/InchargeOfficer.Master" AutoEventWireup="true" CodeBehind="AddComplaint.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.AddComplaint" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <form runat="server">
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="3">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >

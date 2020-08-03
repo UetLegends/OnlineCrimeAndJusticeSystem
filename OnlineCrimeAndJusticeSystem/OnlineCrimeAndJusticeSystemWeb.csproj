@@ -113,6 +113,7 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="AddComplaint.aspx" />
+    <Content Include="AddInchargeOfficer.aspx" />
     <Content Include="assets\css\bootstrap.css" />
     <Content Include="assets\css\bootstrap.min.css" />
     <Content Include="assets\css\bootstrap_limitless.css" />
@@ -131,6 +132,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="DashboardAdmin.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -217,6 +219,7 @@
     <Content Include="global_assets\demo_data\typeahead\nba.json" />
     <Content Include="global_assets\demo_data\typeahead\nhl.json" />
     <Content Include="global_assets\demo_data\uploader\plupload.json" />
+    <Content Include="global_assets\images\logo.png" />
     <Content Include="global_assets\images\lang\helper.psd" />
     <Content Include="global_assets\images\lang\more_flags.url" />
     <Content Include="global_assets\js\plugins\editors\ckeditor\CHANGES.md" />
@@ -736,6 +739,7 @@
     <Content Include="Scripts\ckeditor\ckeditor.asp" />
     <Content Include="Scripts\ckeditor\ckeditor.js" />
     <Content Include="Scripts\ckeditor\ckeditor.pack" />
+    <Content Include="Admin.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="global_assets\css\extras\animate.min.css" />
     <Content Include="global_assets\css\icons\fontawesome\fonts\fa-brands-400.svg" />
@@ -781,7 +785,6 @@
     <Content Include="global_assets\images\lang\ru.png" />
     <Content Include="global_assets\images\lang\ua.png" />
     <Content Include="global_assets\images\login_cover.jpg" />
-    <Content Include="global_assets\images\logo.png" />
     <Content Include="global_assets\images\logo_dark.png" />
     <Content Include="global_assets\images\logo_demo.png" />
     <Content Include="global_assets\images\logo_icon_dark.png" />
@@ -2957,7 +2960,8 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
+    <Content Include="InchargeOfficer.Master" />
+    <Content Include="UpdateInchargeOfficer.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -2970,6 +2974,20 @@
     </Compile>
     <Compile Include="AddComplaint.aspx.designer.cs">
       <DependentUpon>AddComplaint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddInchargeOfficer.aspx.cs">
+      <DependentUpon>AddInchargeOfficer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddInchargeOfficer.aspx.designer.cs">
+      <DependentUpon>AddInchargeOfficer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -2986,6 +3004,13 @@
     </Compile>
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardAdmin.aspx.cs">
+      <DependentUpon>DashboardAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashboardAdmin.aspx.designer.cs">
+      <DependentUpon>DashboardAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -3005,12 +3030,12 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
+    <Compile Include="InchargeOfficer.Master.cs">
+      <DependentUpon>InchargeOfficer.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
+    <Compile Include="InchargeOfficer.Master.designer.cs">
+      <DependentUpon>InchargeOfficer.Master</DependentUpon>
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
@@ -3018,6 +3043,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateInchargeOfficer.aspx.cs">
+      <DependentUpon>UpdateInchargeOfficer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateInchargeOfficer.aspx.designer.cs">
+      <DependentUpon>UpdateInchargeOfficer.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>

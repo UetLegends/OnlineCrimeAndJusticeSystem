@@ -7,35 +7,35 @@
 	<meta charset="utf-8"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-	<title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+	<title>Incharge Officer - A project of Punjab Police, Pakistan</title>
 
 	<!-- Global stylesheets -->
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css"/>
-	<link href="global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/layout.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/components.min.css" rel="stylesheet" type="text/css"/>
-	<link href="assets/css/colors.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/global_assets/css/icons/icomoon/styles.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/assets/css/bootstrap_limitless.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/assets/css/layout.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/assets/css/components.min.css" rel="stylesheet" type="text/css"/>
+	<link href="/assets/css/colors.min.css" rel="stylesheet" type="text/css"/>
 	<!-- /global stylesheets -->
 
 	<!-- Core JS files -->
-	<script src="global_assets/js/main/jquery.min.js"></script>
-	<script src="global_assets/js/main/bootstrap.bundle.min.js"></script>
-	<script src="global_assets/js/plugins/loaders/blockui.min.js"></script>
+	<script src="/global_assets/js/main/jquery.min.js"></script>
+	<script src="/global_assets/js/main/bootstrap.bundle.min.js"></script>
+	<script src="/global_assets/js/plugins/loaders/blockui.min.js"></script>
 	<!-- /core JS files -->
 
 	<!-- Theme JS files -->
-	<script src="global_assets/js/plugins/visualization/d3/d3.min.js"></script>
-	<script src="global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
-	<script src="global_assets/js/plugins/forms/styling/switchery.min.js"></script>
-	<script src="global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
-	<script src="global_assets/js/plugins/ui/moment/moment.min.js"></script>
-	<script src="global_assets/js/plugins/pickers/daterangepicker.js"></script>
+	<script src="/global_assets/js/plugins/visualization/d3/d3.min.js"></script>
+	<script src="/global_assets/js/plugins/visualization/d3/d3_tooltip.js"></script>
+	<script src="/global_assets/js/plugins/forms/styling/switchery.min.js"></script>
+	<script src="/global_assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+	<script src="/global_assets/js/plugins/ui/moment/moment.min.js"></script>
+	<script src="/global_assets/js/plugins/pickers/daterangepicker.js"></script>
 
-	<script src="assets/js/app.js"></script>
-	<script src="global_assets/js/demo_pages/dashboard.js"></script>
-    <script src="Scripts/ckeditor/ckeditor.js"></script>
+	<script src="/assets/js/app.js"></script>
+	<script src="/global_assets/js/demo_pages/dashboard.js"></script>
+    <script src="/Scripts/ckeditor/ckeditor.js"></script>
 	<!-- /theme JS files -->
 </head>
 <body>
@@ -43,7 +43,7 @@
     <div class="navbar navbar-expand-md navbar-dark">
         <div class="navbar-brand">
             <a href="index.html" class="d-inline-block">
-                <img src="global_assets/images/logo.png" alt="">
+                <img src="/global_assets/images/logo.png" alt="">
             </a>
         </div>
 
@@ -166,7 +166,7 @@
                             <ul class="media-list">
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <a href="#" class="media-title font-weight-semibold">Jordana Ansley</a>
@@ -177,7 +177,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <a href="#" class="media-title font-weight-semibold">Will Brason</a>
@@ -188,7 +188,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <a href="#" class="media-title font-weight-semibold">Hanna Walden</a>
@@ -199,7 +199,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <a href="#" class="media-title font-weight-semibold">Dori Laperriere</a>
@@ -210,7 +210,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <a href="#" class="media-title font-weight-semibold">Vanessa Aurelius</a>
@@ -245,7 +245,7 @@
                             <ul class="media-list">
                                 <li class="media">
                                     <div class="mr-3 position-relative">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
 
                                     <div class="media-body">
@@ -262,7 +262,7 @@
 
                                 <li class="media">
                                     <div class="mr-3 position-relative">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
 
                                     <div class="media-body">
@@ -279,7 +279,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <div class="media-title">
@@ -295,7 +295,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <div class="media-title">
@@ -311,7 +311,7 @@
 
                                 <li class="media">
                                     <div class="mr-3">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="36" height="36" class="rounded-circle" alt="">
                                     </div>
                                     <div class="media-body">
                                         <div class="media-title">
@@ -335,7 +335,7 @@
 
                 <li class="nav-item dropdown dropdown-user">
                     <a href="#" class="navbar-nav-link d-flex align-items-center dropdown-toggle" data-toggle="dropdown">
-                        <img src="global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
+                        <img src="/global_assets/images/placeholders/placeholder.jpg" class="rounded-circle mr-2" height="34" alt="">
                         <span>Victoria</span>
                     </a>
 
@@ -382,7 +382,7 @@
                             <div class="media">
                                 <div class="mr-3">
                                     <a href="#">
-                                        <img src="global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
+                                        <img src="/global_assets/images/placeholders/placeholder.jpg" width="38" height="38" class="rounded-circle" alt=""></a>
                                 </div>
 
                                 <div class="media-body">
@@ -425,7 +425,7 @@
                                 <div class="text-uppercase font-size-xs line-height-xs">Forms</div>
                                 <i class="icon-menu" title="Complaint"></i></li>
                             <li class="nav-item nav-item-submenu">
-                                <a href="#" class="nav-link"><i class="icon-pencil3"></i><span>Add Complaint</span></a>
+                                <a href="/Incharge Officer/AddComplaint.aspx" class="nav-link"><i class="icon-pencil3"></i><span>Add Complaint</span></a>
                                 
                             </li>
                             <li class="nav-item nav-item-submenu">

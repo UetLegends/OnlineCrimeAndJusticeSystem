@@ -501,6 +501,15 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.DropDownList txt_WitnessGender;
 
         /// <summary>
+        /// txt_Statement control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_Statement;
+
+        /// <summary>
         /// btn_WitnessAdd control.
         /// </summary>
         /// <remarks>
@@ -508,5 +517,14 @@ namespace OnlineCrimeAndJusticeSystem
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_WitnessAdd;
+
+        /// <summary>
+        /// witnessgridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView witnessgridView;
     }
 }

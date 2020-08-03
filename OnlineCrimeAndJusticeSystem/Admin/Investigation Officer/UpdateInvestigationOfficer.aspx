@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="UpdateInchargeOfficer.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.UpdateInchargeOfficer" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="UpdateInvestigationOfficer.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.UpdateInvestigationOfficer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="card">
         <div class="card-header header-elements-inline">
-            <h6 class="card-title">Update Incharge Officer</h6>
+            <h6 class="card-title">Update Investigation Officer</h6>
             <div class="header-elements">
                 <div class="list-icons">
                     <a class="list-icons-item" data-action="collapse"></a>

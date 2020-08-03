@@ -1,8 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin.Master" AutoEventWireup="true" CodeBehind="DeleteInchargeOfficer.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.DeleteInchargeOfficer" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="DeleteInvestigationOfficer.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.DeleteInvestigationOfficer" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <div class="card">
+     <div class="card">
         <div class="card-header header-elements-inline">
-            <h6 class="card-title">Delete Incharge Officer</h6>
+            <h6 class="card-title">Delete Investigation Officer</h6>
             <div class="header-elements">
                 <div class="list-icons">
                     <a class="list-icons-item" data-action="collapse"></a>
@@ -24,5 +24,4 @@
             </form>
         </div>
     </div>
-        
 </asp:Content>

@@ -76,3 +76,4 @@ D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJustice
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
 D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
+D:\UET\Semester 6\DBMS\Project\OnlineCrimeAndJusticeSystem\OnlineCrimeAndJusticeSystem\bin\CKEditor.NET.dll

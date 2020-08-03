@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/InchargeOfficer.Master" AutoEventWireup="true" CodeBehind="AddComplaint.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.AddComplaint" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Incharge Officer/InchargeOfficer.Master" AutoEventWireup="true" CodeBehind="AddComplaint.aspx.cs" Inherits="OnlineCrimeAndJusticeSystem.AddComplaint" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <form runat="server">
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="0">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >
@@ -415,11 +415,19 @@
                                 </div>
                             </div>
 
-                            <div class="row">
-                            </div>
-                            <textarea id="ckcontent" class="ckeditor"></textarea>
+                            div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Statement</label>
+                                        <asp:TextBox ID="txt_Statement" runat="server" CssClass="form-control" placeholder="Statement"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            
+                            
                         </fieldset>
-                        <asp:Button ID="btn_WitnessAdd" runat="server" Text="Add" CssClass="btn btn-warning" />
+                        <asp:Button ID="btn_WitnessAdd" runat="server" Text="Add" CssClass="btn btn-warning" OnClick="btn_WitnessAdd_Click" />
+                        <asp:GridView ID="witnessgridView" runat="server" EmptyDataText="No record Found Yet"></asp:GridView>
 
                     </asp:WizardStep>
                     

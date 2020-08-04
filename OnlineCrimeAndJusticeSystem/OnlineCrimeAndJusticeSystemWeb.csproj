@@ -742,6 +742,8 @@
     <Content Include="global_assets\scss\_bootstrap\_variables.scss" />
     <Content Include="global_assets\scss\_config.scss" />
     <Content Include="Incharge Officer\DashboardInchargeOfficer.aspx" />
+    <Content Include="Investigation Officer\AddArrestedPeople.aspx" />
+    <Content Include="Investigation Officer\AddEvidence.aspx" />
     <Content Include="Investigation Officer\DashboardInvestigationOfficer.aspx" />
     <Content Include="Scripts\ckeditor\adapters\jquery.js" />
     <Content Include="Scripts\ckeditor\CHANGES.html" />
@@ -3060,6 +3062,20 @@
     </Compile>
     <Compile Include="Incharge Officer\DashboardInchargeOfficer.aspx.designer.cs">
       <DependentUpon>DashboardInchargeOfficer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Investigation Officer\AddArrestedPeople.aspx.cs">
+      <DependentUpon>AddArrestedPeople.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Investigation Officer\AddArrestedPeople.aspx.designer.cs">
+      <DependentUpon>AddArrestedPeople.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Investigation Officer\AddEvidence.aspx.cs">
+      <DependentUpon>AddEvidence.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Investigation Officer\AddEvidence.aspx.designer.cs">
+      <DependentUpon>AddEvidence.aspx</DependentUpon>
     </Compile>
     <Compile Include="Investigation Officer\DashboardInvestigationOfficer.aspx.cs">
       <DependentUpon>DashboardInvestigationOfficer.aspx</DependentUpon>

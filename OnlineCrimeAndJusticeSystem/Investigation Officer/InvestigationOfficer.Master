@@ -410,7 +410,7 @@
                                 <div class="text-uppercase font-size-xs line-height-xs">Main</div>
                                 <i class="icon-menu" title="Main"></i></li>
                             <li class="nav-item">
-                                <a href="index.html" class="nav-link active">
+                                <a href="/Investigation Officer/DashboardInvestigationOfficer.aspx" class="nav-link active">
                                     <i class="icon-home4"></i>
                                     <span>Dashboard
                                     </span>
@@ -425,11 +425,11 @@
                                 <div class="text-uppercase font-size-xs line-height-xs">Forms</div>
                                 <i class="icon-menu" title="Complaint"></i></li>
                             <li class="nav-item nav-item-submenu">
-                                <a href="/Incharge Officer/AddComplaint.aspx" class="nav-link"><i class="icon-pencil3"></i><span>Add Complaint</span></a>
+                                <a href="/Investigation Officer/AddEvidence.aspx" class="nav-link"><i class="icon-pencil3"></i><span>Add Evidence</span></a>
                                 
                             </li>
                             <li class="nav-item nav-item-submenu">
-                                <a href="#" class="nav-link"><i class="icon-file-css"></i><span>View FIR</span></a>
+                                <a href="/Investigation Officer/AddArrestedPeople.aspx" class="nav-link"><i class="icon-file-css"></i><span>Add Arrested People</span></a>
                                 
                             </li>
                             <!-- /forms -->
@@ -469,7 +469,7 @@
                     <div class="breadcrumb-line breadcrumb-line-light header-elements-md-inline">
                         <div class="d-flex">
                             <div class="breadcrumb">
-                                <a href="index.html" class="breadcrumb-item"><i class="icon-home2 mr-2"></i>Home</a>
+                                <a href="/Investigation Officer/DashboardInvestigationOfficer.aspx" class="breadcrumb-item"><i class="icon-home2 mr-2"></i>Home</a>
                                 <span class="breadcrumb-item active">Dashboard</span>
                             </div>
 

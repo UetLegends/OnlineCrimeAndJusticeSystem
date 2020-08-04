@@ -13,6 +13,7 @@
                         <asp:TextBox ID="txt_ComplaintID" runat="server" CssClass="form-control" placeholder="ID"></asp:TextBox>
                     </asp:WizardStep>
 
+                   
                     <asp:WizardStep ID="WizardStep1" runat="server">
                         <h6>Complainer Information</h6>
                         <fieldset>
@@ -86,6 +87,7 @@
                         </fieldset>
                     </asp:WizardStep>
 
+                    
                     <asp:WizardStep ID="WizardStep2" runat="server">
                         <h6>Complainer Address Information</h6>
                         <fieldset>
@@ -128,7 +130,116 @@
                         </fieldset>
                     </asp:WizardStep>
 
-                    <asp:WizardStep ID="WizardStep3" runat="server">
+                    <asp:WizardStep ID="WizardStep3">
+                         <h5>Type of Case</h5>
+                        <div class="row">
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <label>Types</label>
+                                        <asp:RadioButtonList ID="rdbtn_TypeofCase" runat="server">
+                                            <asp:ListItem>Robbery</asp:ListItem>
+                                            <asp:ListItem>Murder</asp:ListItem>
+                                        </asp:RadioButtonList>
+                                    </div>
+                                </div>
+                            </div>
+                        <asp:Button ID="btn_Show" runat="server" Text="Show Form" CssClass="btn btn-danger" OnClick="btn_Show_Click"/>
+
+                        <asp:Panel ID="Robbery" runat="server">
+                            <hr />
+                            <h6>Property Information</h6>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Property Details</label>
+                                        <asp:TextBox ID="txt_PropertyDetails" runat="server" CssClass="form-control" placeholder="Detalis"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Wealth</label>
+                                        <asp:TextBox ID="txt_propertyhWeath" runat="server" CssClass="form-control" placeholder="Weatlh"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>State</label>
+                                        <asp:TextBox ID="txt_propertyLocation" runat="server" CssClass="form-control" placeholder="Location"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>District</label>
+                                        <asp:TextBox ID="txt_propetyDistrict" runat="server" CssClass="form-control" placeholder="District"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Street</label>
+                                        <asp:TextBox ID="txt_PropertyStreet" runat="server" CssClass="form-control" placeholder="Street"></asp:TextBox>
+
+                                    </div>
+                                </div>
+                            </div>
+                             <asp:Button ID="btn_AddProperty" runat="server" Text="Add" CssClass="btn btn-warning" />
+                        </asp:Panel>
+
+                        <asp:Panel ID="MurderPersonPanel" runat="server">
+                            <h6>Murderd Person Information</h6>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <asp:TextBox ID="txt_MurderedName" runat="server" CssClass="form-control" placeholder="Name"></asp:TextBox>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Father Name</label>
+                                        <asp:TextBox ID="txt_MurderFatherName" runat="server" CssClass="form-control" placeholder="FatherName"></asp:TextBox>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Date of Murder</label>
+                                        <asp:Button ID="txt_MurderDate" runat="server" Text="Date" CssClass="btn btn-danger daterange-ranges __web-inspector-hide-shortcut__" OnClientClick="return false;" />
+
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Gender</label>
+                                        <asp:DropDownList ID="MurderGender" runat="server" CssClass="form-control form-control-select2">
+                                            <asp:ListItem>Male</asp:ListItem>
+                                            <asp:ListItem>Female</asp:ListItem>
+                                            <asp:ListItem>Not Specified</asp:ListItem>
+                                        </asp:DropDownList>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <asp:Button ID="btn_MurderedAdd" runat="server" Text="Add" CssClass="btn btn-warning" />
+                        </asp:Panel>
+                    </asp:WizardStep>
+                    
+                    <asp:WizardStep ID="WizardStep4" runat="server">
                         <h6>Act & Section</h6>
                         <fieldset>
                             <div class="row">
@@ -215,7 +326,8 @@
                         </fieldset>
                     </asp:WizardStep>
 
-                    <asp:WizardStep ID ="WizardStep4">
+                    
+                    <asp:WizardStep ID ="WizardStep5">
                         <h6>Occurence of Offence</h6>
                         <div class="row">
                             <label>Occuence of Offence Date & Time</label><span>&emsp;</span>
@@ -250,7 +362,8 @@
                             </div>
                     </asp:WizardStep>
 
-                    <asp:WizardStep ID="WizardStep5" runat="server">
+                    
+                    <asp:WizardStep ID="WizardStep6" runat="server">
                         <h5>Accused/Suspect Details</h5>
                         <div class="row">
                                 <div class="col-md-10">
@@ -355,7 +468,7 @@
                     </asp:WizardStep>
 
 
-                    <asp:WizardStep ID="WizardStep6" runat="server">
+                    <asp:WizardStep ID="WizardStep7" runat="server">
                         <h6>Witness Information</h6>
                         <fieldset>
                             <div class="row">

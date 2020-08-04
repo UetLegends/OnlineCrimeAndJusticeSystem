@@ -168,6 +168,150 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.WizardStep WizardStep3;
 
         /// <summary>
+        /// rdbtn_TypeofCase control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RadioButtonList rdbtn_TypeofCase;
+
+        /// <summary>
+        /// btn_Show control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_Show;
+
+        /// <summary>
+        /// Robbery control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel Robbery;
+
+        /// <summary>
+        /// txt_PropertyDetails control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_PropertyDetails;
+
+        /// <summary>
+        /// txt_propertyhWeath control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_propertyhWeath;
+
+        /// <summary>
+        /// txt_propertyLocation control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_propertyLocation;
+
+        /// <summary>
+        /// txt_propetyDistrict control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_propetyDistrict;
+
+        /// <summary>
+        /// txt_PropertyStreet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_PropertyStreet;
+
+        /// <summary>
+        /// btn_AddProperty control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_AddProperty;
+
+        /// <summary>
+        /// MurderPersonPanel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Panel MurderPersonPanel;
+
+        /// <summary>
+        /// txt_MurderedName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_MurderedName;
+
+        /// <summary>
+        /// txt_MurderFatherName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txt_MurderFatherName;
+
+        /// <summary>
+        /// txt_MurderDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button txt_MurderDate;
+
+        /// <summary>
+        /// MurderGender control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList MurderGender;
+
+        /// <summary>
+        /// btn_MurderedAdd control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_MurderedAdd;
+
+        /// <summary>
+        /// WizardStep4 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep4;
+
+        /// <summary>
         /// txt_PoliceStationDistrict control.
         /// </summary>
         /// <remarks>
@@ -249,13 +393,13 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.GridView DataTableActAndSection;
 
         /// <summary>
-        /// WizardStep4 control.
+        /// WizardStep5 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep4;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep5;
 
         /// <summary>
         /// btn_OccurenceofOffenceDate control.
@@ -294,13 +438,13 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.TextBox txt_OffenceStreet;
 
         /// <summary>
-        /// WizardStep5 control.
+        /// WizardStep6 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep5;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep6;
 
         /// <summary>
         /// rdbtn_TypeofAccused control.
@@ -438,13 +582,13 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.Button btn_AddKnown;
 
         /// <summary>
-        /// WizardStep6 control.
+        /// WizardStep7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.WizardStep WizardStep6;
+        protected global::System.Web.UI.WebControls.WizardStep WizardStep7;
 
         /// <summary>
         /// txt_WitnessName control.

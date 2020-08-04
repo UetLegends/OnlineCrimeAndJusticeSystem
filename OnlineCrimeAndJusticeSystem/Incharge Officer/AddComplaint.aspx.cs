@@ -16,6 +16,8 @@ namespace OnlineCrimeAndJusticeSystem
         {
             UnkownPerson.Visible = false;
             KnownPerson.Visible = false;
+            MurderPersonPanel.Visible = false;
+            Robbery.Visible = false;
             if (!this.IsPostBack)
             {
                 DataTable dt = new DataTable();
@@ -81,6 +83,18 @@ namespace OnlineCrimeAndJusticeSystem
             dt1.Rows.Add(txt_WitnessName.Text.Trim(), txt_WitnessFatherName.Text, txt_WitnessCNIC.Text, txt_WitnessEmailAddress.Text, txt_WitnessPhoneNumber.Text, txt_WitnessGender.Text,txt_Statement.Text);
             ViewState["Witness"] = dt1;
             this.BindGridWitness();
+        }
+
+        protected void btn_Show_Click(object sender, EventArgs e)
+        {
+            if(rdbtn_TypeofCase.Text == "Robbery")
+            {
+                Robbery.Visible = true;
+            }
+            if(rdbtn_TypeofCase.Text == "Murder")
+            {
+                MurderPersonPanel.Visible = true;
+            }
         }
     }
 }

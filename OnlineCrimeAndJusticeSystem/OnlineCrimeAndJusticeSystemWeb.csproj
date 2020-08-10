@@ -115,7 +115,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="Incharge Officer\AddComplaint.aspx" />
     <Content Include="Admin\Incharge Officer\AddInchargeOfficer.aspx" />
     <Content Include="Admin\Investigation Officer\AddInvestigationOfficer.aspx" />
@@ -3010,13 +3009,6 @@
       <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

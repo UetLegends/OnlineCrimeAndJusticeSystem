@@ -22,12 +22,23 @@ namespace OnlineCrimeAndJusticeSystem
             {
                 DataTable dt = new DataTable();
                 DataTable dt1 = new DataTable();
+                DataTable dt2 = new DataTable();
+                DataTable dt3 = new DataTable();
+
                 dt.Columns.AddRange(new DataColumn[6] { new DataColumn("Act"), new DataColumn("Act Discription"), new DataColumn("Section"), new DataColumn("Section Discription"), new DataColumn("Grave"), new DataColumn("Punishable") });
                 dt1.Columns.AddRange(new DataColumn[7] { new DataColumn("Name"), new DataColumn("Father Name"), new DataColumn("CNIC"), new DataColumn("Email"), new DataColumn("Phone Number"), new DataColumn("Gender"), new DataColumn("Statement")});
+                dt2.Columns.AddRange(new DataColumn[3] { new DataColumn("Name"), new DataColumn("Father Name"), new DataColumn("Cast") });
+                dt3.Columns.AddRange(new DataColumn[6] { new DataColumn("Height"), new DataColumn("Color"), new DataColumn("Body Language"), new DataColumn("Way of Talking"), new DataColumn("Language"), new DataColumn("Events for Crime") });
+
                 ViewState["Customers"] = dt;
                 ViewState["Witness"] = dt1;
+                ViewState["KnownAccused"] = dt2;
+                ViewState["UnknownAccused"] = dt3;
+
                 this.BindGridAct();
                 this.BindGridWitness();
+                this.BindGridKnown();
+                this.BindGridUnknown();
             }
         }
 
@@ -95,6 +106,44 @@ namespace OnlineCrimeAndJusticeSystem
             {
                 MurderPersonPanel.Visible = true;
             }
+        }
+        public void BindGridKnown()
+        {
+            KnownGridView.DataSource = (DataTable)ViewState["KnownAccused"];
+            KnownGridView.DataBind();
+        }
+
+        public void BindGridUnknown()
+        {
+            UnknownGridView.DataSource = (DataTable)ViewState["UnknownAccused"];
+            UnknownGridView.DataBind();
+        }
+        public void showKnownData()
+        {
+            DataTable dt2 = (DataTable)ViewState["KnownAccused"];
+
+            dt2.Rows.Add(txt_AccusedPersonName.Text.Trim(), txt_AccusedPersonFatherName.Text, txt_Cast.Text);
+            ViewState["KnownAccused"] = dt2;
+            this.BindGridKnown();
+        }
+
+        public void showUnknownData()
+        {
+            DataTable dt3 = (DataTable)ViewState["UnknownAccused"];
+
+            dt3.Rows.Add(txt_Height.Text, txt_Color.Text, txt_BodyLanguage.Text, txt_talkingWay.Text, txt_language.Text, txt_Crime.Text);
+            ViewState["UnknownAccused"] = dt3;
+            this.BindGridUnknown();
+        }
+
+        protected void btn_AddUnknown_Click1(object sender, EventArgs e)
+        {
+            showUnknownData();
+        }
+
+        protected void btn_AddKnown_Click1(object sender, EventArgs e)
+        {
+            showKnownData();
         }
     }
 }

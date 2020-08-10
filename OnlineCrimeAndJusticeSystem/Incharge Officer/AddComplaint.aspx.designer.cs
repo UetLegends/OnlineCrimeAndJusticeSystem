@@ -537,6 +537,15 @@ namespace OnlineCrimeAndJusticeSystem
         protected global::System.Web.UI.WebControls.Button btn_AddUnknown;
 
         /// <summary>
+        /// UnknownGridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView UnknownGridView;
+
+        /// <summary>
         /// KnownPerson control.
         /// </summary>
         /// <remarks>
@@ -580,6 +589,15 @@ namespace OnlineCrimeAndJusticeSystem
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btn_AddKnown;
+
+        /// <summary>
+        /// KnownGridView control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView KnownGridView;
 
         /// <summary>
         /// WizardStep7 control.

@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="0">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="6">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >
@@ -431,7 +431,8 @@
                                     </div>
                                 </div>
                             </div>
-                             <asp:Button ID="btn_AddUnknown" runat="server" Text="Add" CssClass="btn btn-warning" />
+                             <asp:Button ID="btn_AddUnknown" runat="server" Text="Add" CssClass="btn btn-warning" OnClick="btn_AddUnknown_Click1" />
+                             <asp:GridView ID="UnknownGridView" runat="server" EmptyDataText="No record Found Yet"></asp:GridView>
                         </asp:Panel>
 
                         <asp:Panel ID="KnownPerson" runat="server">
@@ -462,7 +463,8 @@
                                     </div>
                                 </div>
                             </div>
-                             <asp:Button ID="btn_AddKnown" runat="server" Text="Add" CssClass="btn btn-warning" />
+                             <asp:Button ID="btn_AddKnown" runat="server" Text="Add" CssClass="btn btn-warning" OnClick="btn_AddKnown_Click1" />
+                            <asp:GridView ID="KnownGridView" runat="server" EmptyDataText="No record Found Yet"></asp:GridView>
                         </asp:Panel>
                        
                     </asp:WizardStep>

@@ -76,10 +76,21 @@ namespace OnlineCrimeAndJusticeSystem
             DataTableActAndSection.DataBind();
         }
 
+        public void BindGridActPreview()
+        {
+            DataTableActAndSection1.DataSource = (DataTable)ViewState["Customers"];
+            DataTableActAndSection1.DataBind();
+        }
+
         public void BindGridWitness()
         {
             witnessgridView.DataSource = (DataTable)ViewState["Witness"];
             witnessgridView.DataBind();
+        }
+        public void BindGridWitness1()
+        {
+            witnessgridView1.DataSource = (DataTable)ViewState["Witness"];
+            witnessgridView1.DataBind();
         }
 
         protected void btn_WitnessAdd_Click(object sender, EventArgs e)
@@ -112,11 +123,21 @@ namespace OnlineCrimeAndJusticeSystem
             KnownGridView.DataSource = (DataTable)ViewState["KnownAccused"];
             KnownGridView.DataBind();
         }
+        public void BindGridKnownPreview()
+        {
+            KnownGridView1.DataSource = (DataTable)ViewState["KnownAccused"];
+            KnownGridView1.DataBind();
+        }
 
         public void BindGridUnknown()
         {
             UnknownGridView.DataSource = (DataTable)ViewState["UnknownAccused"];
             UnknownGridView.DataBind();
+        }
+        public void BindGridUnknownPreview()
+        {
+            UnknownGridView1.DataSource = (DataTable)ViewState["UnknownAccused"];
+            UnknownGridView1.DataBind();
         }
         public void showKnownData()
         {
@@ -144,6 +165,41 @@ namespace OnlineCrimeAndJusticeSystem
         protected void btn_AddKnown_Click1(object sender, EventArgs e)
         {
             showKnownData();
+        }
+
+        protected void Wizard1_NextButtonClick(object sender, WizardNavigationEventArgs e)
+        {
+            if(e.NextStepIndex == 8)
+            {
+                txt_ComplaintIDPreview.Text = txt_ComplaintID.Text;
+
+
+                txt_ComplianerNamePreview.Text = txt_FirstName.Text;
+                txt_ComplainerFatherNamePreview.Text = txt_FatherName.Text;
+                txt_ComplainerPhonePreview.Text = txt_PhoneNumber.Text;
+                txt_ComplainerEmailPreview.Text = txt_Email.Text;
+                txt_ComplainerCNICPreview.Text = txt_CNIC.Text;
+                txt_dropDownPreview.SelectedItem.Text = GenderList.SelectedItem.Text;
+
+                txt_ComplainerDistrictPreview.Text = txt_District.Text;
+                txt_ComplainerStatePreview.Text = txt_State.Text;
+                txt_ComplainerPostalCodePreview.Text = txt_postalCode.Text;
+                txt_ComplainerStreetPreview.Text = txt_Street.Text;
+
+                BindGridActPreview();
+
+                btn_OccuernceOfOffecncePreview.Text = btn_OccurenceofOffenceDate.Text;
+                txt_OffenceDistrictPreview.Text = txt_OffenceDistrict.Text;
+                txt_OffenceStatePreview.Text = txt_OffenceState.Text;
+                txt_OffenceStreetPreveiw.Text = txt_OffenceStreet.Text;
+
+                BindGridUnknownPreview();
+
+                BindGridKnownPreview();
+
+                BindGridWitness1();
+
+            }
         }
     }
 }

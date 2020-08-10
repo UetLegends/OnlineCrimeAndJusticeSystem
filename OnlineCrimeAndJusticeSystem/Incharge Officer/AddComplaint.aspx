@@ -4,7 +4,7 @@
         <div class="container">
             <h1>Add Complaint</h1>
             <hr />
-            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="6">
+            <asp:Wizard ID="Wizard1" runat="server" DisplaySideBar="false" ActiveStepIndex="0">
                 <WizardSteps>
                     
                     <asp:WizardStep ID="WinzardStep0" runat="server" >
